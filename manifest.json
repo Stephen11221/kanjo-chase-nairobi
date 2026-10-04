@@ -1,0 +1,11 @@
+{
+  "name": "KANJO CHASE - NAIROBI",
+  "short_name": "KANJO CHASE",
+  "description": "Nairobi CBD endless runner game with Kanjo chase and Kenyan hawker vibes.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#071321",
+  "theme_color": "#0b1732",
+  "orientation": "landscape",
+  "icons": []
+}

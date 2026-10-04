@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="description" content="KANJO CHASE - NAIROBI endless runner" />
+    <title>KANJO CHASE - NAIROBI</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="gameCanvas" width="1920" height="1080"></canvas>
+
+      <div id="splashScreen" class="overlay active">
+        <div class="splash-box">
+          <div class="title">KANJO CHASE</div>
+          <div class="subtitle">NAIROBI</div>
+          <div class="tagline">Tom Mboya Street • 60 FPS • Nairobi CBD</div>
+          <div class="press">Tap to start</div>
+        </div>
+      </div>
+
+      <div id="pauseOverlay" class="overlay hidden">
+        <div class="pause-box">
+          <div class="pause-title">PAUSED</div>
+          <button id="resumeBtn">Resume</button>
+        </div>
+      </div>
+
+      <div id="caughtOverlay" class="overlay hidden">
+        <div class="caught-box">
+          <div class="caught-title">UMEKAMATWA!</div>
+          <div class="caught-sub">Lipa 500 bribe</div>
+          <div class="button-row">
+            <button id="watchAdBtn">Watch Ad to Continue</button>
+            <a id="mPesaBtn" href="https://example.com/pesapal/kanjo-bribe" target="_blank" rel="noreferrer">Pay 30 KES via M-Pesa</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="toast" class="toast hidden"></div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
